@@ -3,14 +3,23 @@
 --------------------------------------------------------------------------------------------------------------------------------
 
 国内JavaFx的教程是真的少，当时学起来挺艰难的，许多实现也得自己去查源码。我水平较菜，代码中肯定有无数需要优化的地方。最近在学git，所以传上来。
+
 主界面
+
 ![主界面](https://github.com/JifeiTune/Dedicate-all-the-tunes-to-you-in-the-future/blob/master/Illustration/title.png)
+
 选择界面
+
 ![选择界面](https://github.com/JifeiTune/Dedicate-all-the-tunes-to-you-in-the-future/blob/master/Illustration/select.png)
+
 游戏界面与玩法
+
 ![游戏界面与玩法](https://github.com/JifeiTune/Dedicate-all-the-tunes-to-you-in-the-future/blob/master/Illustration/play.png)
+
 操作键
+
 ![操作键](https://github.com/JifeiTune/Dedicate-all-the-tunes-to-you-in-the-future/blob/master/Illustration/key.jpg)
+
 注：请务必开启声音！谢谢。
 
 1.因为个人非常喜欢纯音乐，再加上图片等素材比较多，所以做了一个Galgame风格的音游，媒体资源比较丰富。
@@ -38,23 +47,3 @@
   InnerShadow，内阴影效果，用在下落的方块上。
   BoxBlur，均值模糊效果，用在选曲界面。
   GaussianBlur，高斯模糊效果，用在判断线上。
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
