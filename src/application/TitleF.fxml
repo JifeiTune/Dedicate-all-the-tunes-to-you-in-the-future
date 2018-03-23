@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="790.0" style="-fx-background-image: url(&quot;/images/TitleBackground.jpg&quot;); -fx-background-position: center;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TitleC">
+   <children>
+      <ImageView fx:id="confirm" fitHeight="219.0" fitWidth="297.0" layoutX="240.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/confirm.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="yes" fitHeight="49.0" fitWidth="99.0" layoutX="276.0" layoutY="295.0" onMouseClicked="#confirm" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/yes.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="no" fitHeight="49.0" fitWidth="99.0" layoutX="397.0" layoutY="295.0" onMouseClicked="#confirm" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/no.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <VBox fx:id="vb" alignment="CENTER" layoutX="530.0" layoutY="175.0" prefHeight="226.0" prefWidth="198.0" spacing="40.0">
+         <children>
+            <ImageView fx:id="be" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/begin.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="co" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/continue.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="gi" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/gift.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="ex" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/exit.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</Pane>

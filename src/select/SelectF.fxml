@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane fx:id="secondPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="790.0" style="-fx-background-image: url(&quot;/images/background2.jpg&quot;); -fx-background-position: center;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="select.SelectC">
+   <children>
+      <HBox layoutX="65.0" layoutY="87.0" prefHeight="200.0" prefWidth="660.0" spacing="30.0">
+         <children>
+            <Circle fx:id="A" fill="#ffffff00" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" radius="100.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: url(&quot;/images/APre.png&quot;);">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+            <Circle fx:id="B" fill="#ffffff00" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" radius="100.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: url(&quot;/images/BPre.png&quot;);">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+            <Circle fx:id="C" fill="#ffffff00" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" radius="100.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: url(&quot;/images/CPre.png&quot;);">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+         </children>
+      </HBox>
+      <ImageView fx:id="returnT" fitHeight="60.0" fitWidth="155.0" layoutX="684.0" layoutY="20.0" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <HBox layoutX="152.0" layoutY="337.0" prefHeight="200.0" prefWidth="459.0" spacing="85.0">
+         <children>
+            <Circle fx:id="D" fill="#ffffff00" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" radius="100.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: url(&quot;/images/DPre.png&quot;);">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+            <Circle fx:id="E" fill="#ffffff00" onMouseClicked="#click" onMouseEntered="#mIn" onMouseExited="#mOut" radius="100.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: url(&quot;/images/EPre.png&quot;);">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+         </children>
+      </HBox>
+   </children>
+</Pane>
